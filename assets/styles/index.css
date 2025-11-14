@@ -73,7 +73,7 @@ body {
 }
 
 .menu .button {
-  color: #414141; /* cor inicial */
+  color: #414141; 
 }
 .menu .button:hover {
   color: #ccc;
@@ -174,7 +174,7 @@ body {
 }
 .movies-section h2 { margin: 0 20px 12px; font-family: 'Philosopher', serif; }
 .movies-grid {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
   gap: 16px;
   padding: 0 20px 40px;
@@ -189,7 +189,3 @@ body {
 .card img { width: 100%; height: auto; border-radius: 4px; }
 .card h3 { color: #fff; font-size: 14px; margin-top: 8px; }
 
-.hero-info a:hover {
-  background: #e6c969;
-
-}
