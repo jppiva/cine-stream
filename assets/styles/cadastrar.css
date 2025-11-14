@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Zalando Sans", sans-serif;
+    background: #04053f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-caixa {
+    width: 900px;
+    height: 600px;
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    margin-top: 73px;
+    grid-template-columns: 1fr 1 fr;
+    background: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 14px 40px rgba(2, 7, 23, 0.08);
+}
+
+.forma-lado {
+    padding: 56px 48px;
+    align-items:flex-end;
+    padding-left: 20px;
+}
+
+.forma-dentro {
+    width: 100%;
+    max-width: 420px;
+}
+
+.logo {
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #000000;
+    margin-bottom: 18px;
+}
+
+h1 {
+    margin: 0 0 8px;
+    font-size: 32px;
+    color: #000000;
+}
+
+.login-sutitulo {
+    margin: 0 0 24px;
+    color: #000000;
+    font-size: 14px;
+}
+
+.digitar-campo {
+    display: block;
+    margin-bottom: 14px;
+}
+
+.digitar-label {
+    display: block;
+    font-size: 13px;
+    color: #000000;
+    margin-bottom: 6px;
+}
+
+.digitar-campo input {
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 10px;
+    border: 1px solid #e6e9ee;
+    font-size: 14px;
+    outline: none;
+    transition: box-shadow 0.18s, border-color 0.18s;
+}
+
+.digitar-campo input:focus {
+    border-color: #04053f;
+    box-shadow: 0 6px 18px #6a6dbc;
+}
+
+.botao {
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 10px;
+    border:none;
+    background: linear-gradient(180deg, #6a6dbc, #6869b9);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 15px;
+    transition: tranform 0.8s ease, box-shadow 0.8s ease, opacity 0.8s;
+}
+
+.botao a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.botao:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 26px rgba(92, 75, 230, 0.18);
+}
+
+.esqueci-senha {
+    color: #000000;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.signup {
+    margin-top: 14px;
+    font-size: 14px;
+    color: #51606a;
+}
+
+.signup a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.img img {
+    display: flex;
+    border-radius: 10px;
+    position: absolute;
+    top: 120px;
+    right: 200px;
+    
+}
